@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Finsary</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1.25rem; line-height: 1.6; color: #222; }
+  @media (prefers-color-scheme: dark) { body { background: #111; color: #eee; } a { color: #7ab7ff; } }
+  h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+  .muted { color: #888; font-size: 0.9rem; }
+  h2 { margin-top: 2rem; font-size: 1.2rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: 0.35rem; }
+  code { background: rgba(128,128,128,0.15); padding: 0 0.25rem; border-radius: 3px; }
+  .lang { font-size: 0.9rem; margin-bottom: 1.5rem; }
+</style>
+</head>
+<body>
+
+<div class="lang"><a href="../tr/privacy.html">Türkçe</a></div>
+
+<h1>Privacy Policy</h1>
+<p class="muted">Last updated: 2026-04-21</p>
+
+<p>This Privacy Policy explains how the Finsary mobile application ("Finsary", "the App", "we") collects, uses, and protects your personal data. By using Finsary you accept the practices described below.</p>
+
+<h2>1. Who we are</h2>
+<p>Finsary is developed and operated by Alperen Yüksel Altuğ as an independent developer. For any privacy-related question contact: <a href="mailto:alperen.altug@gmail.com">alperen.altug@gmail.com</a>.</p>
+
+<h2>2. Data we collect</h2>
+<ul>
+  <li><strong>Account data:</strong> email address and display name, obtained when you register with email/password or sign in with Apple / Google. For Apple Sign-In, we only receive your name on the very first login and only if you share it.</li>
+  <li><strong>Profile photo:</strong> if you choose to set one, the image is compressed (JPEG, max 512px) and stored as base64 text inside your user document.</li>
+  <li><strong>Financial entries you create:</strong> transactions, debts and their installments, savings accounts, savings transactions, and savings goals. This includes amounts, currencies, categories, counterparty names and notes that you type in.</li>
+  <li><strong>App preferences:</strong> reminder times, master notification toggle, onboarding state. Stored locally in <code>UserDefaults</code>.</li>
+  <li><strong>No tracking:</strong> we do not collect location, contacts, advertising identifiers, health data or browsing history. We do not use third-party analytics or advertising SDKs.</li>
+</ul>
+
+<h2>3. How we use your data</h2>
+<ul>
+  <li>To operate the app's core features: show your balances, track your debts, schedule local reminders, sync your data across your own devices.</li>
+  <li>To authenticate you securely.</li>
+  <li>To improve reliability by recording crashes (see section 4).</li>
+</ul>
+
+<h2>4. Service providers (sub-processors)</h2>
+<p>We do not sell or rent your data. We share the minimum necessary data with the following processors to run the service:</p>
+<ul>
+  <li><strong>Google LLC — Firebase Authentication:</strong> authentication tokens, email.</li>
+  <li><strong>Google LLC — Cloud Firestore:</strong> stores your user document and all financial entries.</li>
+  <li><strong>Google LLC — Firebase Crashlytics:</strong> receives anonymous crash diagnostics if the app crashes. No financial data is transmitted.</li>
+  <li><strong>Apple Inc. — Sign in with Apple:</strong> verifies your Apple ID if you choose this sign-in method.</li>
+  <li><strong>Google LLC — Google Sign-In:</strong> verifies your Google account if you choose this sign-in method.</li>
+</ul>
+
+<h2>5. Data retention and deletion</h2>
+<p>Your data is kept until you delete it. The app offers two built-in actions:</p>
+<ul>
+  <li><strong>Reset data</strong> (Settings → Reset all data): removes all your financial entries from our servers. Your account stays.</li>
+  <li><strong>Delete account</strong> (Settings → Delete account): permanently removes your account, all financial entries, your profile and photo.</li>
+</ul>
+<p>Local copies on your device (<code>UserDefaults</code> cache, scheduled notifications) are wiped on logout and on both of the actions above.</p>
+
+<h2>6. Your rights</h2>
+<p>Depending on your jurisdiction (including GDPR and KVKK) you may have the right to access, correct, export or delete your personal data, and to withdraw consent. You can exercise most of these rights directly in the app. For export or any other request, write to <a href="mailto:alperen.altug@gmail.com">alperen.altug@gmail.com</a> and we will respond within 30 days.</p>
+
+<h2>7. Security</h2>
+<p>Data in transit is encrypted with TLS. Firebase Firestore security rules restrict each document to its owning user. No financial data is shared with other users. We rely on Apple's Keychain / UserDefaults sandboxing for on-device storage.</p>
+
+<h2>8. International transfers</h2>
+<p>Firebase data is processed on Google Cloud infrastructure, which may involve transfers outside your country. Google applies standard contractual clauses and equivalent safeguards.</p>
+
+<h2>9. Children</h2>
+<p>Finsary is intended for users aged 13 and above and is not designed for children. We do not knowingly collect data from children under 13.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If we change how we handle your data, we will update this page and revise the "Last updated" date. For material changes we will also notify you inside the app.</p>
+
+<h2>11. Contact</h2>
+<p><a href="mailto:alperen.altug@gmail.com">alperen.altug@gmail.com</a></p>
+
+</body>
+</html>

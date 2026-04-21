@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası — Finsary</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1.25rem; line-height: 1.6; color: #222; }
+  @media (prefers-color-scheme: dark) { body { background: #111; color: #eee; } a { color: #7ab7ff; } }
+  h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+  .muted { color: #888; font-size: 0.9rem; }
+  h2 { margin-top: 2rem; font-size: 1.2rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: 0.35rem; }
+  code { background: rgba(128,128,128,0.15); padding: 0 0.25rem; border-radius: 3px; }
+  .lang { font-size: 0.9rem; margin-bottom: 1.5rem; }
+</style>
+</head>
+<body>
+
+<div class="lang"><a href="../en/privacy.html">English</a></div>
+
+<h1>Gizlilik Politikası</h1>
+<p class="muted">Son güncelleme: 21.04.2026</p>
+
+<p>Bu Gizlilik Politikası, Finsary mobil uygulamasının (bundan böyle "Finsary", "Uygulama", "biz") kişisel verilerinizi nasıl topladığını, kullandığını ve koruduğunu açıklar. Finsary'yi kullanarak aşağıdaki uygulamaları kabul etmiş sayılırsınız.</p>
+
+<h2>1. Kim olduğumuz</h2>
+<p>Finsary, bağımsız bir geliştirici olan Alperen Yüksel Altuğ tarafından geliştirilmekte ve işletilmektedir. Gizlilik ile ilgili her türlü soru için: <a href="mailto:alperen.altug@gmail.com">alperen.altug@gmail.com</a>.</p>
+
+<h2>2. Topladığımız veriler</h2>
+<ul>
+  <li><strong>Hesap verileri:</strong> E-posta / şifre ile kayıt veya Apple / Google ile giriş sırasında alınan e-posta adresi ve görünen ad. Apple ile Giriş'te adınız yalnızca ilk giriş sırasında, paylaşmayı seçerseniz, bir kez gönderilir.</li>
+  <li><strong>Profil fotoğrafı:</strong> Yüklemeyi seçerseniz, fotoğraf sıkıştırılır (JPEG, en fazla 512 piksel) ve base64 metin olarak kullanıcı belgenizin içinde saklanır.</li>
+  <li><strong>Oluşturduğunuz finansal kayıtlar:</strong> işlemler, borçlar ve taksitleri, birikim hesapları, birikim işlemleri ve birikim hedefleri. Tutarlar, para birimleri, kategoriler, karşı taraf adları ve notlarınız bu verilere dâhildir.</li>
+  <li><strong>Uygulama tercihleri:</strong> hatırlatma saatleri, genel bildirim anahtarı, onboarding durumu. Cihazınızda <code>UserDefaults</code> içinde tutulur.</li>
+  <li><strong>Takip yok:</strong> konum, rehber, reklam tanımlayıcısı, sağlık verisi veya tarayıcı geçmişi toplamıyoruz. Üçüncü taraf analitik veya reklam SDK'sı kullanmıyoruz.</li>
+</ul>
+
+<h2>3. Verilerinizi nasıl kullanıyoruz</h2>
+<ul>
+  <li>Uygulamanın temel özelliklerini çalıştırmak: bakiyelerinizi göstermek, borçlarınızı takip etmek, yerel hatırlatmalar kurmak, verilerinizi kendi cihazlarınız arasında senkronize etmek.</li>
+  <li>Kimliğinizi güvenli biçimde doğrulamak.</li>
+  <li>Uygulamanın çökmelerini kayıt altına alarak güvenilirliği artırmak (bkz. 4. bölüm).</li>
+</ul>
+
+<h2>4. Hizmet sağlayıcılar (veri işleyenler)</h2>
+<p>Verilerinizi satmıyor veya kiralamıyoruz. Hizmeti işletebilmek için asgari düzeyde veri aşağıdaki işleyicilerle paylaşılır:</p>
+<ul>
+  <li><strong>Google LLC — Firebase Authentication:</strong> kimlik doğrulama belirteçleri, e-posta.</li>
+  <li><strong>Google LLC — Cloud Firestore:</strong> kullanıcı belgeniz ve tüm finansal kayıtlarınızı depolar.</li>
+  <li><strong>Google LLC — Firebase Crashlytics:</strong> uygulama çökerse anonim teknik teşhis verilerini alır. Hiçbir finansal veri iletilmez.</li>
+  <li><strong>Apple Inc. — Apple ile Giriş:</strong> bu giriş yöntemini seçerseniz Apple Kimliğinizi doğrular.</li>
+  <li><strong>Google LLC — Google Sign-In:</strong> bu giriş yöntemini seçerseniz Google hesabınızı doğrular.</li>
+</ul>
+
+<h2>5. Veri saklama ve silme</h2>
+<p>Verileriniz siz silene kadar saklanır. Uygulamada iki hazır seçenek bulunur:</p>
+<ul>
+  <li><strong>Verileri sıfırla</strong> (Ayarlar → Verileri sıfırla): sunucudaki tüm finansal kayıtlarınız silinir, hesabınız kalır.</li>
+  <li><strong>Hesabı sil</strong> (Ayarlar → Hesabı sil): hesabınızı, tüm finansal kayıtlarınızı, profilinizi ve fotoğrafınızı kalıcı olarak siler.</li>
+</ul>
+<p>Cihazınızdaki yerel kopyalar (<code>UserDefaults</code> önbellek, planlanmış bildirimler) çıkış yaptığınızda ve yukarıdaki iki işlemde temizlenir.</p>
+
+<h2>6. Haklarınız</h2>
+<p>Bulunduğunuz yargı alanına göre (GDPR ve 6698 sayılı KVKK dâhil) kişisel verilerinize erişme, düzeltme, dışa aktarma, silme ve rızanızı geri alma haklarına sahip olabilirsiniz. Bu hakların çoğunu doğrudan uygulama içinden kullanabilirsiniz. Dışa aktarım veya diğer talepler için <a href="mailto:alperen.altug@gmail.com">alperen.altug@gmail.com</a> adresine yazın; 30 gün içinde dönüş yaparız.</p>
+
+<h2>7. Güvenlik</h2>
+<p>Aktarım sırasında veriler TLS ile şifrelenir. Firebase Firestore güvenlik kuralları her belgeyi yalnızca sahibine erişilebilir kılar. Hiçbir finansal veri diğer kullanıcılarla paylaşılmaz. Cihaz üzerindeki depolama için Apple'ın Keychain / UserDefaults izolasyonuna güveniriz.</p>
+
+<h2>8. Uluslararası veri aktarımı</h2>
+<p>Firebase verileri Google Cloud altyapısında işlenir; bu süreç ülkeniz dışına aktarım içerebilir. Google, standart sözleşmesel hükümler ve eşdeğer güvenceleri uygular.</p>
+
+<h2>9. Çocuklar</h2>
+<p>Finsary 13 yaş ve üzeri kullanıcılar için tasarlanmıştır ve çocuklara yönelik değildir. 13 yaş altındaki çocuklardan bilerek veri toplamayız.</p>
+
+<h2>10. Politikadaki değişiklikler</h2>
+<p>Verilerinizi işleme biçimimiz değişirse bu sayfayı güncelleyecek ve "Son güncelleme" tarihini değiştireceğiz. Esaslı değişikliklerde ayrıca uygulama içinden de bilgilendireceğiz.</p>
+
+<h2>11. İletişim</h2>
+<p><a href="mailto:alperen.altug@gmail.com">alperen.altug@gmail.com</a></p>
+
+</body>
+</html>
